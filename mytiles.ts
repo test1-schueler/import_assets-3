@@ -39,6 +39,6 @@ namespace custom {
 }
 
 namespace myTiles {
-    //% fixedInstance jres blockIdentity=images._tile
+    //% fixedInstance blockIdentity=images._tile
     export const tile3 = image.ofBuffer(hex`e410100000ffffffffffff00f077c7fcef44e40f7f7777ccefeeeefe7f7777c7efe4eefe7f7777c7efeeeefe7f7777c7efeeeefe7f7777ccefeeeefe7f7777c7efeeeefe7f7777c7efeeeefe7f77ccc7efeeeefe7f77ccc7efeeeefe7f7777c7efeeeefe7f7777c7efeeeefe7f7777ccefe4eefef077c7fcef44e40f00ffffffffffff00`)
 }
