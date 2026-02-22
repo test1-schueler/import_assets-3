@@ -1,4 +1,93 @@
-// Automatisch generierter Code. Nicht bearbeiten.
+// Auto-generated code. Do not edit.
+namespace myImages {
+
+    helpers._registerFactory("image", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "myTiles.transparency16":return img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`;
+            case "myTiles.tile1":
+            case "tile0":return img`
+. . . . . . . . . . . . . . . . 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 
+4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 
+5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 
+6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 6 
+7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
+8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 
+9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 
+a a a a a a a a a a a a a a a a 
+b b b b b b b b b b b b b b b b 
+c c c c c c c c c c c c c c c c 
+d d d d d d d d d d d d d d d d 
+e e e e e e e e e e e e e e e e 
+f f f f f f f f f f f f f f f f 
+`;
+            case "myTiles.tile4":
+            case "tile2":return img`
+. . f f f f f f f f f f f f . . 
+. f 7 7 7 7 7 7 7 7 7 7 7 7 f . 
+f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 7 7 7 7 7 7 f 
+f 7 7 7 7 7 7 7 7 c c 7 7 7 7 f 
+f c 7 7 7 7 7 7 7 c c 7 7 7 c f 
+f c c 7 7 7 c 7 7 7 7 7 7 c c f 
+f f c c c c c c c c c c c c f f 
+f f f f f f f f f f f f f f f f 
+f e e e e e e e e e e e e e e f 
+f 4 e 4 e e e e e e e e e 4 4 f 
+f 4 e e e e e e e e e e e e 4 f 
+f 4 e e e e e e e e e e e e 4 f 
+f e e e e e e e e e e e e e e f 
+. f e e e e e e e e e e e e f . 
+. . f f f f f f f f f f f f . . 
+`;
+        }
+        return null;
+    })
+
+    helpers._registerFactory("animation", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+    helpers._registerFactory("song", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+    helpers._registerFactory("json", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+
+        }
+        return null;
+    })
+
+}
+// Auto-generated code. Do not edit.
+
+// Auto-generated code. Do not edit.
 namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const transparency16 = image.ofBuffer(hex``);
@@ -34,14 +123,14 @@ namespace myTiles {
 
     helpers._registerFactory("tile", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "transparency16":return transparency16;
+            case "transparency16":return myTiles.transparency16;
             case "tile0":
-            case "tile1":return tile1;
-            case "myTile":
-            case "tile4":return tile4;
+            case "tile1":return myTiles.tile1;
+            case "tile2":
+            case "tile4":return myTiles.tile4;
         }
         return null;
     })
 
 }
-// Automatisch generierter Code. Nicht bearbeiten.
+// Auto-generated code. Do not edit.
