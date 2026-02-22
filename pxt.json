@@ -1,5 +1,5 @@
 {
-    "name": "import_assets #3",
+    "name": "import_assets #4",
     "description": "test für tilemaps importieren ",
     "dependencies": {
         "device": "*"
@@ -25,6 +25,6 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "assetPack": false
 }
