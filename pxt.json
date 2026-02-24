@@ -1,5 +1,5 @@
 {
-    "name": "import_assets #5",
+    "name": "import_assets #6",
     "description": "test für tilemaps importieren ",
     "dependencies": {
         "device": "*"
